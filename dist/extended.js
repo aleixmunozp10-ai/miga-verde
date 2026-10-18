@@ -15,3 +15,18 @@ function selectNote(button){const flavor=button.dataset.note,content=noteContent
 noteTabs.forEach((tab,index)=>{tab.addEventListener('click',()=>selectNote(tab));tab.addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();const target=e.key==='Home'?0:e.key==='End'?2:(index+(e.key==='ArrowRight'?1:2))%3;noteTabs[target].focus();selectNote(noteTabs[target]);});});
 document.querySelector('#privacy-info').addEventListener('click',()=>show('Privacidad','<p>Esta experiencia de presentación no incluye formularios de envío, pagos ni herramientas de analítica añadidas por MIGA VERDE.</p><p>La selección de productos se guarda únicamente en la memoria de esta página y desaparece al recargar. El proveedor de alojamiento puede conservar registros técnicos de acceso.</p>'));
 document.querySelector('#mv-year').textContent=new Date().getFullYear();
+
+/* Keep the original glyphs, requesting monochrome text only on mobile.
+   VS15 prevents iOS/Android from selecting their color emoji artwork. */
+const mobileSymbols=matchMedia('(max-width: 700px)');
+const symbolNodes=[];
+const symbolWalker=document.createTreeWalker(document.querySelector('main'),NodeFilter.SHOW_TEXT);
+while(symbolWalker.nextNode()){
+ const node=symbolWalker.currentNode;
+ if(/[✳↗↑↓]/u.test(node.nodeValue))symbolNodes.push({node,original:node.nodeValue});
+}
+function renderMobileSymbols(){
+ for(const {node,original} of symbolNodes)node.nodeValue=mobileSymbols.matches?original.replace(/([✳↗↑↓])\uFE0F?/gu,'$1\uFE0E'):original;
+}
+renderMobileSymbols();
+mobileSymbols.addEventListener('change',renderMobileSymbols);

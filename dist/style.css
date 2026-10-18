@@ -13,3 +13,9 @@
 @media(prefers-reduced-motion:reduce){.mv-motion .mv-reveal{opacity:1;transform:none;transition:none}.mv-product:hover .mv-product-image img{transform:none}.mv-world *{transition:none!important}}
 /* Keep the complete six-piece arrangement visible at every breakpoint. */
 .mv-gift-photo img{height:auto;aspect-ratio:1.5;object-fit:contain}.mv-atelier-copy h2 em:before{content:' '}
+/* Mobile-only text presentation: retain the desktop symbols, never color emoji. */
+@media(max-width:700px){
+ .mv-band i,.mv-flower,.mv-contact-flower,.mv-gift-seal,
+ .mv-text-link span,.mv-light-link span,.mv-button span,.mv-add,
+ .mv-footer-top a,.scroll-hint span{font-variant-emoji:text}
+}
