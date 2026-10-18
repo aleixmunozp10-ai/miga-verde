@@ -1,0 +1,68 @@
+[
+  {
+    "name": "atelier",
+    "actual_time": 55,
+    "completed": 1792322502,
+    "cost": 0.015,
+    "created": 1792322447,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M57BW9XESCSKF23JGRTD54B3",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792408902,
+          "url": [
+            "https://getapib.org/image/9998207677497838-936633fe-8e8d-41de-8556-a8aa44887776-image_task_01M57BW9XESCSKF23JGRTD54B3.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "ritual",
+    "actual_time": 44,
+    "completed": 1792322493,
+    "cost": 0.015,
+    "created": 1792322449,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M57BWC13FMG79JXNQ0BDJRK1",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792408893,
+          "url": [
+            "https://getapib.org/image/9998207677506763-d89c926c-cc23-4047-8dd4-45a585fed1ea-image_task_01M57BWC13FMG79JXNQ0BDJRK1.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "coffret",
+    "actual_time": 48,
+    "completed": 1792322499,
+    "cost": 0.015,
+    "created": 1792322451,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M57BWE5EPYNDMV9BE7M2WYS4",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792408899,
+          "url": [
+            "https://getapib.org/image/9998207677500757-c22460b8-0a2b-4f93-9472-27fb2ea1ea02-image_task_01M57BWE5EPYNDMV9BE7M2WYS4.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  }
+]

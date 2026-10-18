@@ -4,9 +4,9 @@ RewriteEngine On
 
 # Serve only the production build when Hostinger checks out the repository.
 RewriteRule ^$ dist/index.html [L]
-RewriteRule ^(index\.html|style\.css|app\.js|favicon\.svg)$ dist/$1 [L]
+RewriteRule ^(index\.html|style\.css|app\.js|extended\.js|favicon\.svg)$ dist/$1 [L]
 RewriteRule ^assets/([a-zA-Z0-9_-]+\.(?:webp|jpg|png|svg))$ dist/assets/$1 [L]
-RewriteRule ^dist/(?:index\.html|style\.css|app\.js|favicon\.svg|assets/[a-zA-Z0-9_-]+\.(?:webp|jpg|png|svg))$ - [L]
+RewriteRule ^dist/(?:index\.html|style\.css|app\.js|extended\.js|favicon\.svg|assets/[a-zA-Z0-9_-]+\.(?:webp|jpg|png|svg))$ - [L]
 
 # Source files and repository metadata are never public.
 RewriteRule ^ - [F,L]
