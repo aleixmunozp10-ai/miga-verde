@@ -1,0 +1,7 @@
+*.zip
+.DS_Store
+.env
+.env.*
+!.env.example
+.secrets/
+__pycache__/

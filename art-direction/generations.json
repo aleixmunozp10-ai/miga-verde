@@ -1,0 +1,200 @@
+[
+  {
+    "name": "bg-matcha",
+    "actual_time": 36,
+    "completed": 1792317332,
+    "cost": 0.015,
+    "created": 1792317296,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M576Z41ATF82QVR43Y2MF7ZF",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403732,
+          "url": [
+            "https://getapib.org/image/9998207682667625-011c6975-6be7-4c02-abed-3cecf31704ce-image_task_01M576Z41ATF82QVR43Y2MF7ZF.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "bg-cacao",
+    "actual_time": 195,
+    "completed": 1792317522,
+    "cost": 0.015,
+    "created": 1792317327,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M57701VE87GC43TWRKD7MDMX",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403922,
+          "url": [
+            "https://getapib.org/image/9998207682477652-959f0900-7f88-40df-a0ce-8a115af2bf72-image_task_01M57701VE87GC43TWRKD7MDMX.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "bg-vainilla",
+    "actual_time": 137,
+    "completed": 1792317476,
+    "cost": 0.015,
+    "created": 1792317339,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5770DNMQPT1FJX4AQVRDPYE",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403876,
+          "url": [
+            "https://getapib.org/image/9998207682523678-2f4e8bbd-3115-42fa-8d99-4c83bd6faf20-image_task_01M5770DNMQPT1FJX4AQVRDPYE.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "cookie-matcha",
+    "actual_time": 62,
+    "completed": 1792317413,
+    "cost": 0.015,
+    "created": 1792317351,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5770SBVB8CH128RQ548WN5P",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403813,
+          "url": [
+            "https://getapib.org/image/9998207682586430-7f2cd26a-e5fe-4592-9968-79974acf8cbb-image_task_01M5770SBVB8CH128RQ548WN5P.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "cookie-cacao",
+    "actual_time": 168,
+    "completed": 1792317531,
+    "cost": 0.015,
+    "created": 1792317363,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5771512F3QVS08Y1GKHV2BH",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403931,
+          "url": [
+            "https://getapib.org/image/9998207682468823-9b09ca24-ffd0-4772-b7df-701d84194165-image_task_01M5771512F3QVS08Y1GKHV2BH.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "cookie-vainilla",
+    "actual_time": 162,
+    "completed": 1792317538,
+    "cost": 0.015,
+    "created": 1792317376,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5771HFT1FQ6BRRH1QK9J23F",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403938,
+          "url": [
+            "https://getapib.org/image/9998207682461242-b1bb0dac-cdf6-423b-a986-ef82f13fb6e1-image_task_01M5771HFT1FQ6BRRH1QK9J23F.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "deco-matcha",
+    "actual_time": 53,
+    "completed": 1792317454,
+    "cost": 0.015,
+    "created": 1792317401,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5772ACGD6397HG3GMXQZQGQ",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403854,
+          "url": [
+            "https://getapib.org/image/9998207682545560-9c4fdc7e-a937-49d3-a4d2-2eaba3895126-image_task_01M5772ACGD6397HG3GMXQZQGQ.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "deco-cacao",
+    "actual_time": 147,
+    "completed": 1792317560,
+    "cost": 0.015,
+    "created": 1792317413,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M5772NRVJDMBK9BFK4HRG8PE",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403960,
+          "url": [
+            "https://getapib.org/image/9998207682439509-c557e3ae-618e-41db-920b-ac999fbee112-image_task_01M5772NRVJDMBK9BFK4HRG8PE.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  {
+    "name": "deco-vainilla",
+    "actual_time": 89,
+    "completed": 1792317514,
+    "cost": 0.015,
+    "created": 1792317425,
+    "credits_cost": 0.15,
+    "estimated_time": 100,
+    "id": "task_01M57731PNBMFB2QKTNG73QRF7",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1792403914,
+          "url": [
+            "https://getapib.org/image/9998207682486030-61ba1db7-b848-4efc-ab02-13089585606f-image_task_01M57731PNBMFB2QKTNG73QRF7.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  }
+]
